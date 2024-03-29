@@ -1,10 +1,13 @@
+import Navbar from "./components/ui/Navbar"
+import Presentation from "./components/ui/Presentation"
 
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      NODECT
-    </h1>
+    <div className="bg-bgbody h-screen px-2 xl:px-10">
+      <Navbar />
+      <Presentation/>
+    </div>
   )
 }
 
