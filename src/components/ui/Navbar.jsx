@@ -6,8 +6,8 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="flex items-center justify-between xl:justify-start w-full h-[10vh] z-50">
-        <a href="" className="w-1/2 text-primary text-2xl font-bold flex items-center gap-1">
+    <header className="flex px-5 items-center justify-between xl:justify-start w-full h-[10vh] z-50">
+        <a href="" className="flex items-center w-1/2 gap-1 text-2xl font-bold text-primary">
           <img
             src="logo.png"
             className="w-[40px] h-[40px] object-cover"
@@ -31,7 +31,7 @@ const Navbar = () => {
         </nav>
         <button 
           onClick={() => setShowMenu(!showMenu)}
-          className="xl:hidden text-2xl text-primary"
+          className="text-2xl xl:hidden text-primary"
         >
           {showMenu ? <IoClose /> : <IoMenu />} 
         </button>
