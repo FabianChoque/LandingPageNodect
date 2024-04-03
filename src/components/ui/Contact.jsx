@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-[160vh] md:min-h-[50vh] xl:min-h-[100vh] pt-10">
+    <section className="min-h-[160vh] md:min-h-[90vh] xl:min-h-[100vh] pt-10">
       <div className="flex flex-col gap-5 text-center">
         <h1 className="text-4xl font-bold md:text-5xl text-primary">
           Contáctanos
@@ -98,7 +98,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
-                  className="w-full py-2 px-2 text-white border-b border-white outline-none bg-bgbody"
+                  className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   required
                   autoComplete="off"
                 />
@@ -111,7 +111,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="surname"
-                  className="w-full py-2 px-2 text-white border-b border-white outline-none bg-bgbody"
+                  className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   required
                   autoComplete="off"
                 />
@@ -121,7 +121,7 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
-                  className="w-full py-2 px-2 text-white border-b border-white outline-none bg-bgbody"
+                  className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   required
                   autoComplete="off"
                 />
@@ -133,7 +133,7 @@ const Contact = () => {
                 <input
                   type="tel"
                   name="phone"
-                  className="w-full py-2 px-2 text-white border-b border-white outline-none bg-bgbody"
+                  className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   autoComplete="off"
                   required
                 />
