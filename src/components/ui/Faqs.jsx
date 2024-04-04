@@ -11,7 +11,7 @@ const Faqs = () => {
       }, []);
 
   return (
-    <div className='min-h-[90vh] pt-10'>
+    <div className='min-h-[90vh] xl:pt-10'>
         <h1 className='mb-10 text-4xl font-bold text-center md:text-5xl text-primary'>Preguntas frecuentes</h1>
         <div className='flex flex-col gap-10 px-10 md:px-20'>
             { questions.map(question => (

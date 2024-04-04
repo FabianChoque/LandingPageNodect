@@ -19,7 +19,7 @@ const Navbar = () => {
         </Link>
       <nav className={`fixed bg-bgbody w-[80%] xl:w-full h-full ${showMenu ? "left-0":"-left-full"}
           top-0 xl:static flex flex-col xl:flex-row items-center justify-center xl:justify-end xl:p-5 gap-10 xl:gap-20 
-          transition-all duration-500`}>
+          transition-all duration-500 z-50`}>
           <Link to="/bases" className="text-white">  
             Saber más 
           </Link>
