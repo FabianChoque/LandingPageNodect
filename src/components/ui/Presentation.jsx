@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Presentation = () => {
 
   return (
@@ -16,9 +16,9 @@ const Presentation = () => {
             <button className="w-full px-8 py-2 text-lg text-white rounded-lg md:w-auto bg-primary">
               Inscríbite
             </button>
-            <button className="w-full px-8 py-2 text-lg text-white border border-white rounded-lg md:w-auto">
+            <Link to='/bases'><button className="w-full px-8 py-2 text-lg text-white border border-white rounded-lg md:w-auto">
               Saber más
-            </button>
+            </button></Link>
           </div>
         </div>
         <div className="flex justify-center pt-3">
