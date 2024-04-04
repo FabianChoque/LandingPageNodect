@@ -1,20 +1,17 @@
-import Awards from "./components/ui/Awards"
-import Contact from "./components/ui/Contact"
-import Navbar from "./components/ui/Navbar"
-import Partners from "./components/ui/Partners"
-import Presentation from "./components/ui/Presentation"
+import React from "react";
+import { Routes, Route } from "react-router-dom"
+import Home from "./pages/Home";
+import Bases from "./components/ui/Bases";
 
 function App() {
-
   return (
-    <div className="px-2 bg-bgbody xl:px-10">
-      <Navbar />
-      <Presentation/>
-      <Partners />
-      <Awards />
-      <Contact />
+    <div >
+      <Routes>
+        <Route path="/" element={ <Home /> } />
+        <Route path="bases" element={ <Bases /> } />
+      </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
