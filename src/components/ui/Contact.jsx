@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-[160vh] md:min-h-[90vh] xl:min-h-[100vh] pt-10">
+    <section className="min-h-[160vh] md:min-h-[90vh] xl:min-h-[100vh] xl:pt-10">
       <div className="flex flex-col gap-5 text-center">
         <h1 className="text-4xl font-bold md:text-5xl text-primary">
           Contáctanos

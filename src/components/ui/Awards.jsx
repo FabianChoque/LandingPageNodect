@@ -1,6 +1,6 @@
 const Awards = () => {
   return (
-    <div className="pt-20 mt-20">
+    <div className="pt-20 mt-20 mb-20">
         <div className="flex flex-col items-center justify-center gap-10 text-center">
             <h1 className="text-4xl font-bold md:text-5xl text-primary" >Premios disponibles</h1>
             <p className="px-5 text-lg text-white md:px-0 md:w-3/5" >Mediante nuestra red de empresas interesadas en talentos te conectaremos con oportunidades en diversos sectores y empresas para que puedas elegir la que mejor se adapte a ti</p>

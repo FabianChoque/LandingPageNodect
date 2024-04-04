@@ -8,13 +8,12 @@ import Presentation from "../components/ui/Presentation"
 function Home() {
 
   return (
-    <div className="px-2 bg-bgbody xl:px-10">
-      <Navbar />
-      <Presentation/>
-      <Partners />
-      <Awards />
-      <Contact />
-    </div>
+    <>
+        <Presentation />
+        <Partners />
+        <Awards />
+        <Contact />
+    </>
   )
 }
 
