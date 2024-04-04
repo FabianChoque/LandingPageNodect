@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-[160vh] md:min-h-[50vh] xl:min-h-[100vh] pt-10">
+    <section className="min-h-[160vh] md:min-h-[90vh] xl:min-h-[120vh] xl:pt-10">
       <div className="flex flex-col gap-5 text-center">
         <h1 className="text-4xl font-bold md:text-5xl text-primary">
           Contáctanos
@@ -41,7 +41,7 @@ const Contact = () => {
         </p>
       </div>
       <div className="flex items-center justify-center pt-5">
-        <div className="grid md:w-3/4 px-5 xl:px-0 grid-cols-1 md:grid-cols-4 xl:grid-cols-10 md:h-[50vh] xl:h-[70vh]">
+        <div className="grid md:w-[80%] xl:w-[75%] px-5 xl:px-0 grid-cols-1 md:grid-cols-4 xl:grid-cols-10 md:h-[50vh] xl:h-[70vh]">
           {/* Information */}
           <div className="relative px-2 py-2 md:col-span-2 xl:col-span-4">
             <div className="relative w-full h-full p-10 rounded-lg bg-primary">
@@ -98,7 +98,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
-                  className="w-full py-2 px-2 text-white border-b border-white outline-none bg-bgbody"
+                  className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   required
                   autoComplete="off"
                 />
@@ -111,7 +111,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="surname"
-                  className="w-full py-2 px-2 text-white border-b border-white outline-none bg-bgbody"
+                  className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   required
                   autoComplete="off"
                 />
@@ -121,7 +121,7 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
-                  className="w-full py-2 px-2 text-white border-b border-white outline-none bg-bgbody"
+                  className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   required
                   autoComplete="off"
                 />
@@ -133,7 +133,7 @@ const Contact = () => {
                 <input
                   type="tel"
                   name="phone"
-                  className="w-full py-2 px-2 text-white border-b border-white outline-none bg-bgbody"
+                  className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   autoComplete="off"
                   required
                 />
