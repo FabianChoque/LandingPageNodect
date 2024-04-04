@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom"
 import Navbar from "./components/ui/Navbar"
+import Footer from "./components/ui/Footer"
 import Contact from "./components/ui/Contact"
 import Faqs from "./components/ui/Faqs"
 import Home from "./pages/Home";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/bases" element={ <Bases /> } />
         <Route path="/*" element={ <Navigate to='/'/>}/>
       </Routes>
+      <Footer />
     </div>
   );
 }

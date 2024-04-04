@@ -13,9 +13,9 @@ const Presentation = () => {
             <p className="px-5 mt-5 text-lg text-center text-white md:px-0 md:w-3/5">Forma un equipo para resolver problemas reales, aplica diversas metodologías de trabajo y generá experciencia para vincularte de manera más efectiva al mercado laboral</p>
           </div>
           <div className="flex flex-col items-center justify-center gap-4 px-10 pt-5 md:flex-row md:px-0">
-            <button className="w-full px-8 py-2 text-lg text-white rounded-lg md:w-auto bg-primary">
+            <a href="https://forms.gle/VsJUCVqQusW5j5cj9" className="w-full px-8 py-2 text-lg text-white rounded-lg md:w-auto bg-primary">
               Inscríbite
-            </button>
+            </a>
             <Link to='/bases'><button className="w-full px-8 py-2 text-lg text-white border border-white rounded-lg md:w-auto">
               Saber más
             </button></Link>

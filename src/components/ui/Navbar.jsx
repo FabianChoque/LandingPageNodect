@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { IoClose, IoMenu } from "react-icons/io5";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
