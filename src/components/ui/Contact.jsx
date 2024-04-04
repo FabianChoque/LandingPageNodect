@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-[160vh] md:min-h-[90vh] xl:min-h-[120vh] xl:pt-10">
+    <section className="min-h-[170vh] md:min-h-[90vh] xl:min-h-[120vh] xl:pt-10">
       <div className="flex flex-col gap-5 text-center">
         <h1 className="text-4xl font-bold md:text-5xl text-primary">
           Contáctanos
@@ -56,7 +56,7 @@ const Contact = () => {
               <div className="flex flex-col gap-10 pt-10">
                 <div className="flex flex-col items-center gap-5 text-lg text-white xl:flex-row">
                   <MdPhoneInTalk />
-                  <p>38851780202</p>
+                  <p>3884730928</p>
                 </div>
                 <div className="flex flex-col items-center gap-5 text-lg text-white xl:flex-row">
                   <MdEmail />
@@ -65,8 +65,8 @@ const Contact = () => {
                 <div className="flex flex-col items-center gap-5 text-lg text-center text-white xl:text-left xl:flex-row">
                   <MdLocationPin />
                   <div>
-                    <p>San Salvador de Jujuy, Jujuy</p>
-                    <p>Argetina</p>
+                    <p>Las palmas de Gran Canaria</p>
+                    <p>España</p>
                   </div>
                 </div>
               </div>
