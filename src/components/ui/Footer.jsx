@@ -19,6 +19,12 @@ const Footer = () => {
             <Link to="/faqs" className="text-white">
               FAQ
             </Link>
+            <Link to="/cookies" className="text-white">
+              Cookies
+            </Link>
+            <Link to="/privacy" className="text-white">
+              Privacidad
+            </Link>
             <Link to="/contacto" className="text-white">
               Contacto
             </Link>
