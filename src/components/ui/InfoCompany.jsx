@@ -28,12 +28,13 @@ const Info = () => {
     <div id="info" className="px-5 mb-20 md:pt-20 md:px-20">
       {/*Nuestra misión*/}
       <div className="xl:mb-20">
-        <div className="flex flex-col justify-between mb-5 xl:flex-row">
+        <div className="flex flex-col justify-center xl:justify-between mb-5 xl:flex-row 
+        md:w-[80%] md:ml-[50%] xl:w-full xl:ml-0 md:-translate-x-[50%] xl:-translate-x-0">
           <div className="xl:w-[50%]">
-            <h1 className="mb-4 text-4xl font-bold md:text-5xl text-primary">
+            <h1 className="mb-4 text-4xl font-bold text-center xl:text-left md:text-5xl text-primary">
               Nuestra misión
             </h1>
-            <p className="text-lg text-justify text-white md:text-xl">
+            <p className="text-lg text-center text-white xl:text-justify md:text-xl">
               En Nodect, nuestra misión es{" "}
               <strong className="text-primary">
                 optimizar los procesos educativos de las personas y su conexión
@@ -82,13 +83,14 @@ const Info = () => {
       </div>
 
       {/*Nuestra visión*/}
-      <div className="flex flex-col items-center justify-between mb-10 xl:flex-row-reverse ">
+      <div className="flex flex-col items-center justify-between mb-10 
+      xl:flex-row-reverse md:w-[80%] md:ml-[50%] xl:w-full xl:ml-0 md:-translate-x-[50%] xl:-translate-x-0">
         <div className="xl:w-[50%]">
-          <h2 className="mb-4 text-4xl font-bold md:text-5xl text-primary">
+          <h2 className="mb-4 text-4xl font-bold text-center xl:text-left md:text-5xl text-primary">
             Nuestra visión
           </h2>
           <div className="text-lg md:text-xl">
-            <p className="text-justify text-white ">
+            <p className="text-center text-white xl:text-justify ">
               Aspiramos a ser reconocidos por nuestra capacidad para diseñar e
               implementar soluciones que mejoren la calidad educativa a unos
               estándares sin predecentes además de revolucionar la forma de
@@ -118,14 +120,15 @@ const Info = () => {
       </div>
 
       {/*Como trabajamos*/}
-      <div className="flex-col mt-20">
+      <div className="flex-col mt-20
+      md:w-[90%] md:ml-[50%] md:-translate-x-[50%] xl:w-full xl:ml-0  xl:-translate-x-0">
         <div className="flex flex-col justify-center gap-2 text-4xl font-bold text-center md:flex-row md:text-5xl">
           <h1 className="mb-4 text-4xl font-bold md:text-5xl text-primary">
             Cómo trabajamos
           </h1>
         </div>
         <div className="flex justify-center">
-          <p className="text-lg text-center text-white md:text-xl">
+          <p className="text-lg text-center text-white md:px-10 md:text-xl 2xl:px-20">
             Nos centramos en cambiar el proceso de aprendizaje, buscando la
             mejora constante en todos los procesos, y que el usuario encuentre
             un espacio dónde sea totalmente beneficiado en caso paso.

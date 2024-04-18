@@ -4,9 +4,9 @@ const scrollToDestination = () => {
 };
 const CompanyPresentation = () => {
   return (
-    <section className="mt-10 min-h-[90vh] md:min-h-[60vh] md:bg-blue-200 xl:bg-red-300 2xl:bg-green-400 xl:min-h-[30vh]">
+    <section className="mt-10 min-h-[90vh] md:min-h-[50vh] xl:min-h-[80vh]">
       <div className="flex flex-col mt-5 xl:gap-20 xl:flex-row">
-        <div className="flex flex-col justify-center gap-2 text-center xl:w-[60%]">
+        <div className="flex flex-col justify-center gap-2 text-center xl:w-[60%] md:px-20">
           <h1 className="text-4xl font-bold text-white md:text-5xl text-bold">
             Dedícate a aprender
           </h1>
