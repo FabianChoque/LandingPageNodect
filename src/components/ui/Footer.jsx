@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="bg-bgbody text-white py-6">
+    <footer className="bg-bgbody text-white py-6 ">
       <div className="container mx-auto px-4 flex flex-col items-center">
         <div className="mb-2">
           {/* Nombre de la empresa o logo */}
@@ -10,11 +10,14 @@ const Footer = () => {
             <img src="logo.png" className="w-[40px] h-[40px] object-cover" />
           </Link>
         </div>
-        <div className="mb-2">
+        <div className="mb-2 ">
           {/* Enlaces o navegación */}
-          <nav className="flex gap-4 justify-center">
+          <nav className="flex gap-4 justify-center ">
             <Link to="/bases" className="text-white">
-              Saber más
+              Bases
+            </Link>
+            <Link to="/company" className="text-white">
+              Empresa
             </Link>
             <Link to="/faqs" className="text-white">
               FAQ

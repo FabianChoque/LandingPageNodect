@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import  { useRef } from "react";
 import { MdEmail, MdLocationPin, MdPhoneInTalk } from "react-icons/md";
 import { FaDiscord, FaInstagram, FaTiktok } from "react-icons/fa";
 
@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-[170vh] md:min-h-[90vh] xl:min-h-[120vh] xl:pt-10">
+    <section className="md:min-h-[80vh] xl:min-h-[120vh] xl:pt-10 mb-20 md:mb-0">
       <div className="flex flex-col gap-5 text-center">
         <h1 className="text-4xl font-bold md:text-5xl text-primary">
           Contáctanos
@@ -151,11 +151,11 @@ const Contact = () => {
                 required
               />
             </div>
-            <div className="relative flex justify-center pt-5 xl:justify-end">
+            <div className="flex justify-center pt-5 xl:justify-end">
               <Toaster />
               <button
                 type="submit"
-                className="absolute w-full px-6 py-2 font-semibold text-white rounded-lg xl:w-auto bg-primary"
+                className="w-full px-6 py-2 font-semibold text-white rounded-lg xl:w-auto bg-primary"
               >
                 Enviar
               </button>

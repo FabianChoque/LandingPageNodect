@@ -5,6 +5,7 @@ import Footer from "./components/ui/Footer"
 
 //Pages
 import Home from "./pages/Home";
+import Company from "./pages/Company";
 import Contact from "./components/ui/Contact"
 import Faqs from "./components/ui/Faqs"
 import Bases from "./components/ui/Bases";
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={ <Home />}/>
+        <Route path="/company" element={ <Company/>}/>
         <Route path="/contacto" element={ <Contact />}/>
         <Route path="/faqs" element={ <Faqs />}/>
         <Route path="/bases" element={ <Bases /> } />

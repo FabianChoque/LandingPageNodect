@@ -21,7 +21,10 @@ const Navbar = () => {
           top-0 xl:static flex flex-col xl:flex-row items-center justify-center xl:justify-end xl:p-5 gap-10 xl:gap-20 
           transition-all duration-500 z-50`}>
           <Link to="/bases" className="text-white">  
-            Saber más 
+            Bases
+          </Link>
+          <Link to="/company" className="text-white">  
+            Empresa
           </Link>
           <Link to="/faqs" className="text-white">  
             FAQ 
