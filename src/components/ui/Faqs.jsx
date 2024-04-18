@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import QuestionBox from './QuestionBox'
 import { faqs } from '../../data/Questions';
 

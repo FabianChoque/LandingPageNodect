@@ -1,4 +1,3 @@
-import React from "react";
 
 const Info = () => {
   return (
@@ -8,7 +7,7 @@ const Info = () => {
           <h2 className="mb-5 text-4xl font-bold text-white md:mb-10 md:text-5xl">
             Resuelve proyectos
           </h2>
-          <p className="text-lg text-white text-justify">
+          <p className="text-lg text-justify text-white">
             Te ofrecemos proyectos del mundo real, diseñados para que puedas
             practicar y mejorar tus habilidades en un entorno profesional
             simulado. ¡Las empresas de diversos sectores están observando y
@@ -28,7 +27,7 @@ const Info = () => {
           <h2 className="mb-5 text-4xl font-bold text-white md:mb-10 md:text-5xl">
             Trabajo en equipo
           </h2>
-          <p className="text-lg text-white text-justify">
+          <p className="text-lg text-justify text-white">
             Trabajarás en equipos multidisciplinarios, resolverás problemas
             reales y aprenderás a colaborar eficazmente en un entorno
             profesional
@@ -46,7 +45,7 @@ const Info = () => {
           <h2 className="mb-5 text-4xl font-bold text-white md:mb-10 md:text-5xl">
             Aplica tecnología
           </h2>
-          <p className="text-lg text-white text-justify">
+          <p className="text-lg text-justify text-white">
             UTiliza las herramientas, tecnologías y metodologías que más te
             gusten y te ayuden a resolver el problema de la mejor manera y
             demostrar tu talento
