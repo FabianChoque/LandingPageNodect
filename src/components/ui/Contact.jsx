@@ -1,4 +1,4 @@
-import  { useRef } from "react";
+import  { useRef, useState } from "react";
 import { MdEmail, MdLocationPin, MdPhoneInTalk } from "react-icons/md";
 import { FaDiscord, FaInstagram, FaTiktok } from "react-icons/fa";
 
@@ -12,6 +12,14 @@ const Contact = () => {
   const email_service = import.meta.env.VITE_EMAIL_SERVICE;
   const email_template = import.meta.env.VITE_CONTACT_TEMPLATE;
   const email_js_key = import.meta.env.VITE_EMAILJS_KEY;
+  
+  const [formData, setFormData] = useState({
+    name: '',
+    surname: '',
+    email: '',
+    phone: '',
+    message: ''
+  });
 
   // Send Email
   const sendEmail = (e) => {
@@ -23,11 +31,26 @@ const Contact = () => {
       .then(
         () => {
           toast.success("Correo enviado con éxito!");
+          setFormData({
+            name: '',
+            surname: '',
+            email: '',
+            phone: '',
+            message: ''
+          });
         },
         (error) => {
           toast.error("Ha ocurrido un error, inténtalo de nuevo!");
         }
       );
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      [name]: value
+    }));
   };
 
   return (
@@ -98,6 +121,8 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
+                  value={formData.name}
+                  onChange={handleChange}
                   className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   required
                   autoComplete="off"
@@ -111,6 +136,8 @@ const Contact = () => {
                 <input
                   type="text"
                   name="surname"
+                  value={formData.surname}
+                  onChange={handleChange}
                   className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   required
                   autoComplete="off"
@@ -121,6 +148,8 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   required
                   autoComplete="off"
@@ -133,6 +162,8 @@ const Contact = () => {
                 <input
                   type="tel"
                   name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
                   className="w-full px-2 py-2 text-white border-b border-white outline-none bg-bgbody"
                   autoComplete="off"
                   required
@@ -146,6 +177,8 @@ const Contact = () => {
               <textarea
                 rows="4"
                 name="message"
+                value={formData.message}
+                onChange={handleChange}
                 className="block w-full p-2 text-white placeholder-gray-400 bg-gray-700 border border-gray-600 rounded-lg resize-none text-md"
                 placeholder="Escriba su consulta aquí..."
                 required
